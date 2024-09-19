@@ -66,3 +66,15 @@ body {
     width: 350px;
     height: 75px;
 }
+
+* {
+    box-sizing: border-box;
+}
+.my-box4 {
+    background-color: rgb(133, 188, 228);
+    border: 1px solid rgb(133, 188, 228);
+    margin-left: 20px;
+    padding: 5px;
+    width: 350px;
+    height: 75px;
+}
