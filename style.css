@@ -30,3 +30,14 @@ body {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
 }
+* {
+    box-sizing: border-box;
+}
+.my-box {
+    background-color: rgb(177, 219, 250);
+    border: 2px solid rgb(177, 219, 250);
+    margin: 20px;
+    padding: 10px;
+    width: 350px;
+    height: 120px;
+}
