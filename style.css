@@ -7,6 +7,7 @@
 /* Hier können Stiele für die ganze Webseite angegeben werden. */
 body {
     margin: 0;
+    background-color: rgb(199, 233, 244);
 }
 
 /* Hier werden 2 Elemente nebeneinander gepackt.
@@ -50,9 +51,10 @@ body {
     background-color: rgb(177, 219, 250);
     border: 2px solid rgb(177, 219, 250);
     margin-left: 20px;
-    padding: 5px;
+    margin-top: 20px;
+    padding: 10px;
     width: 350px;
-    height: 100px;
+    height: 120px;
 }
 
 * {
@@ -77,4 +79,9 @@ body {
     padding: 5px;
     width: 350px;
     height: 75px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 25% auto;
 }
