@@ -84,23 +84,23 @@
                     </circle>
                 </svg>
 
-               
-
                 <svg height="300" width="300">
-                        
-                   <circle stroke="black" cx="150" cy="150" r="80" fill="yellow" />
-                   <circle cx="105" cy="140" r="17" fill="black" />
-                   <circle cx="190" cy="140" r="17" fill="black" />
-                   <path fill="red" stroke="black" stroke-width="1" d="M 100 180 L 200 180 L 150 200 Z" />
-                         
-                        
-                </svg>
-
+  
+                    <g id="face" transform="translate(150, 150)">
+                        <circle stroke="black" cx="0" cy="0" r="80" fill="yellow" />
+                        <circle cx="-45" cy="-10" r="17" fill="black" />
+                        <circle cx="45" cy="-10" r="17" fill="black" />
+                        <path fill="red" stroke="black" stroke-width="1" d="M -50 30 L 50 30 L 0 50 Z" />
+                    </g> 
                 
-
-               
-                            
-                
+                    <animateTransform attributeName="transform" 
+                        attributeType="XML" 
+                        type="rotate" 
+                        from="0 0 0" 
+                        to="360 0 0" 
+                        dur="5s" 
+                        repeatCount="indefinite" />
+                </svg> 
             
             
             </section>
