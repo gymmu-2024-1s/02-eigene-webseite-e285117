@@ -73,6 +73,20 @@
                 </div>
 
                 <svg height="300" width="300">
+    
+                    <path id="rectangular-motion" d="M 50 50 H 250 V 250 H 50 Z" stroke="black" fill="transparent" />
+                    
+                  
+                    <circle r="40" fill="yellow">
+                        <animateMotion dur="8s" repeatCount="indefinite">
+                            <mpath href="#rectangular-motion"/>
+                        </animateMotion>
+                    </circle>
+                </svg>
+
+               
+
+                <svg height="300" width="300">
                         
                    <circle stroke="black" cx="150" cy="150" r="80" fill="yellow" />
                    <circle cx="105" cy="140" r="17" fill="black" />
