@@ -16,20 +16,22 @@
             <!-- Im header wird der Kopf der Webseite angegeben.
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
-            <h1>Webseite von ...</h1>
+            <h1>  ⋆.˚ Webseite von Javiera ⋆.˚✮˚.⋆
+
+        
+                
+              
+            </h1>
+
+            
+
         </header>
 
-        <nav>
-            <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
-            denen man auf Unterwebseiten kommt. 
-            Dieses Element wird oft in den Header gesetzt, kann aber auch auf
-            der linken oder rechten Seite verwendet werden. -->
+        
 
-            <ul>
-                <li>
-                    <a href="./pages/hobbies.html">Hobbies</a>
-                </li>
-            </ul>
+        <nav>
+          
+            
         </nav>
 
         <main>
@@ -41,42 +43,90 @@
                 <!-- Dieses Element wird verwendet um einen Abschnitt auf der
                 Webseite vom Rest abzutrennen. Für Abschnitte in einem Text
                 verwendet man das p-Element. -->
-                <h2>Erster Abschnitt</h2>
-                <p>
+                <div class="my-container"> 
+                    <div class="my-box3">
+                         <h2>Allgemeine Informationen !</h2>
+                    </div>
+
                     <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
                     ein. Das p-Element hat meistens nur noch Text, Links oder
                     Bilder drin, sonst keine weiteren Elemente. -->
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
-                    itaque eaque vel necessitatibus amet consectetur corrupti
-                    repudiandae ipsam aliquam sint.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    natus magni non cumque voluptatum similique ullam
-                    temporibus. Magni sequi sunt temporibus ab a nobis quo non,
-                    molestias sapiente dolorum repellendus obcaecati odit, dolor
-                    quae illo ratione, veniam autem id praesentium. Consectetur,
-                    totam asperiores expedita culpa doloribus nesciunt error
-                    architecto dolorum!
-                </p>
-            </section>
-
-            <section>
-                <h2>Abschnitt mit Text und Bild</h2>
-                <div class="text-and-img">
-                    <!-- Hier wird eine Klasse verwendet, die in CSS angibt wie das
-                    Element gestaltet werden soll. Es werden hier 2 Kinder-Elemente
-                    verwendet, damit wir den Effekt von einem Text neben einem Bild
-                    einfach hinbekommen können. -->
-                    <div class="text">
-                        Hier ist eine Beschreibung von dem Bild, oder einfach
-                        Text der dazu passen könnte.
+                    <div class="my-container grid"> 
+                    <div class="my-box">Ich heisse Javiera. 
+                        Ich bin 16 Jahre alt und ich habe 25. März Geburstag .  
+                        Ich komme aus Chile, ich bin in der Schweiz seit 1 Jahr, deswegen, Deutsch ist manchmal ein bisschen schwierig für mich.
                     </div>
-                    <div class="image">
-                        <img src="/img/mountains.png" alt="" />
+                    
+                    <nav class="my-box2">
+                
+
+                        <ul>
+                            <li>
+                                <a href="./pages/hobbies.html">Hobbies</a>
+                            </li>
+                            <li>
+                                <a href="./pages/Bestrebungen.html">Meine Bestrebungen</a>
+                            </li>
+                        </ul>
+        
+                    </nav>
+                </div>
+
+                <svg height="300" width="300">
+    
+                    <path id="rectangular-motion" d="M 50 50 H 250 V 250 H 50 Z" stroke="black" fill="transparent" />
+                    
+                  
+                    <circle r="40" fill="yellow">
+                        <animateMotion dur="8s" repeatCount="indefinite">
+                            <mpath href="#rectangular-motion"/>
+                        </animateMotion>
+                    </circle>
+                </svg>
+
+                <svg height="300" width="300">
+  
+                    <g id="face" transform="translate(150, 150)">
+                        <circle stroke="black" cx="0" cy="0" r="80" fill="yellow" />
+                        <circle cx="-45" cy="-10" r="17" fill="black" />
+                        <circle cx="45" cy="-10" r="17" fill="black" />
+                        <path fill="red" stroke="black" stroke-width="1" d="M -50 30 L 50 30 L 0 50 Z" />
+                    </g> 
+                
+                    <animateTransform attributeName="transform" 
+                        attributeType="XML" 
+                        type="rotate" 
+                        from="0 0 0" 
+                        to="360 0 0" 
+                        dur="5s" 
+                        repeatCount="indefinite" />
+                </svg> 
+            
+            
+            </section>
                     </div>
                 </div>
-            </section>
+
+            
+
+
+                  
+                    
+                  <section> <h2> Santiago de Chile </h2>
+                    <div class="text-and-img">
+                  
+                     
+                
+                  
+                    <div class="image">
+                        <img src="https://storage.googleapis.com/chile-travel-cdn/2021/08/Vitrina_Centro_santiago-1.jpg"/>
+                    </div>
+
+
+                
+
+                    </div>
+                </section>
         </main>
 
         <footer>
